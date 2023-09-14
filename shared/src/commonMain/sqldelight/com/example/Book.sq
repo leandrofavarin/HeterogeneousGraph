@@ -1,0 +1,12 @@
+CREATE TABLE book (
+  id TEXT NOT NULL PRIMARY KEY,
+  title TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM book;
+
+INSERT INTO book(id, title) VALUES("book_1", "First Book");
+INSERT INTO book(id, title) VALUES("book_2", "Second Book");
+INSERT INTO book(id, title) VALUES("book_3", "Third Book");
+INSERT INTO book(id, title) VALUES("book_4", "Fourth Book");
